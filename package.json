@@ -4,7 +4,6 @@
   "description": "Don’t accept the available as the preferable. Go extra mile with extra speed.",
   "main": "src/index.js",
   "scripts": {
-    "preinstall": "./scripts/pre-install.js",
     "test": "istanbul cover _mocha -- test/*.mspec.js test/**/*.mspec.js --compilers js:babel/register",
     "watch": "npm run transpile -- -w",
     "transpile": "babel src --out-dir dist",
